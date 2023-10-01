@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledModalOverlay = styled.overlay`
+export const StyledModalOverlay = styled.div`
 position: fixed;
   top: 0;
   left: 0;

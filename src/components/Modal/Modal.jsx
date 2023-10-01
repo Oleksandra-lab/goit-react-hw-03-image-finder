@@ -2,16 +2,16 @@ import {Component} from 'react'
 
 import {StyledModalOverlay, StyledModalContent} from './Modal.styled'
 
-export class Modal extends Component {
+export const Modal = ({modalImg, onCloseModal}) => {
 
 
-    render() {
+   
         return (
             <StyledModalOverlay>
                 <StyledModalContent>
-
-                </StyledModalContent>
+<img onClick={onCloseModal} src={modalImg} alt={modalImg} />
+               </StyledModalContent>
             </StyledModalOverlay>
         )
-    }
+
 }

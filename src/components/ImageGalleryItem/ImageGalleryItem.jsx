@@ -2,12 +2,12 @@ import { Component } from 'react';
 
 import {StyledGalleryItem, StyledGalleryImg} from './ImageGalleryItem.styled'
 
-export class GalleryItem extends Component {
-  render() {
+export const GalleryItem =({smallImg, id, largeImg, onToggleModal}) => {
+  
     return (
       <StyledGalleryItem>
-        <StyledGalleryImg src="" alt="" />
+        <StyledGalleryImg onClick={() => onToggleModal(largeImg)}  src={smallImg} alt={id} />
       </StyledGalleryItem>
     );
-  }
+  
 }
