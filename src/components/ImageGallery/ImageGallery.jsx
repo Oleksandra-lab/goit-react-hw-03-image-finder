@@ -1,6 +1,3 @@
-import { Component } from 'react';
-
-
 import {StyledList} from './ImageGallery.styled'
 import { GalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
 

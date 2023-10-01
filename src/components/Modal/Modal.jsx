@@ -1,5 +1,3 @@
-import {Component} from 'react'
-
 import {StyledModalOverlay, StyledModalContent} from './Modal.styled'
 
 export const Modal = ({modalImg, onCloseModal}) => {

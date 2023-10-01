@@ -1,5 +1,3 @@
-import { Component } from 'react';
-
 import {StyledGalleryItem, StyledGalleryImg} from './ImageGalleryItem.styled'
 
 export const GalleryItem =({smallImg, id, largeImg, onToggleModal}) => {
